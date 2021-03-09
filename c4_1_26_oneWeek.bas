@@ -2,7 +2,7 @@ Option Explicit
 
 Sub oneWeek()
     Dim myWeek(6) As String
-    DIm i As Integer
+    Dim i As Integer
 
     myWeek(0) = "日曜日"
     myWeek(1) = "月曜日"

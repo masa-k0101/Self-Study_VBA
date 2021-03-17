@@ -7,10 +7,10 @@ Sub rangeToVariant()
     Dim r As Integer, c As Integer
     Worksheets("コピー元").Activate
 
-    myData = Range("A1").CurrentRange.Value
+    myData = Range("A1").CurrentRegion.Value
 
     r = UBound(myData, 1)
-    c = UBOund(myData, 2)
+    c = UBound(myData, 2)
 
     Worksheet("コピー元").Activate
 

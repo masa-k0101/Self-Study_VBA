@@ -1,4 +1,4 @@
-Sub MakeDataTable
+Sub MakeDataTable()
     With ActiveSheet.ChartObject(1).Chart
         .HasLegend = False
 

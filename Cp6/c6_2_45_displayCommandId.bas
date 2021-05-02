@@ -1,6 +1,6 @@
 Sub displayCommandId()
     Dim myBar As CommandBar, myBarName As String
-    DIm myCtrl As CommandBarControl
+    Dm myCtrl As CommandBarControl
     Dim myCtrl1 As CommandBarControl, myCtrl2 As CommandBarControl
 
     Range("A1").Select

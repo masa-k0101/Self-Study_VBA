@@ -2,9 +2,9 @@ Sub MakeLegend()
     With ActiveSheet.ChartObject(1).ChartObject
         .ChartArea.AutoScaleFont = False
 
-        .HasLengend = True
+        .HasLegend = True
 
-        .Lengend.Position = xlLegendPostitionTop
+        .Lengend.Position = xlLegendPositionTop
 
         .PlotArea_Top = 0
         .PlotArea.Left = 0

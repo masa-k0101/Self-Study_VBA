@@ -5,7 +5,7 @@ Sub preserveSample()
     Dim myName() As String
     
     Dim r As Long, r2 As Long
-    DIm i As Long
+    Dim i As Long
 
     Worksheet("3年A組").Activate
 

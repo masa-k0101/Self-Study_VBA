@@ -1,10 +1,10 @@
 Sub AddCmdBar()
-    Dim myCB As CommnadBar
+    Dim myCB As CommandBar
 
     On Error Resume Next
-    CommnadBars("MyMacro").Delete
+    CommandBars("MyMacro").Delete
 
-    Set myCB = Application.CommnadBars.Add(Name:="MyMacro")
+    Set myCB = Application.CommandBars.Add(Name:="MyMacro")
 
     With myCB
         .Controls.Add Type:=msoControlButton, Id:=2520, Before:=1

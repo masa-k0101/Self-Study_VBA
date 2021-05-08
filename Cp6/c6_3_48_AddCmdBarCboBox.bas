@@ -9,7 +9,7 @@ Sub AddCmdBarCboBox()
 
     Set myCBCtrl = myCB.Controls.Add(True:=msoConrolComboBOx)
 
-    WIth myCBCtrl
+    With myCBCtrl
         .AddItem "マクロ1", 1
         .AddItem "マクロ2", 2
         .AddItem "マクロ3", 3

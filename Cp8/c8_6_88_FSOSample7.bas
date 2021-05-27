@@ -9,5 +9,5 @@ Sub FSOSample7()
 
         MsgBox  "C:|My Documentsのファイルの合計サイズ" & vbCrlf & vbCrlf & _
                 Format(mySize2, "#,##0") & "MB" & "(" & Format(mySize1, "#,##0") & "バイト"
-    ENd With
+    End With
 End sub

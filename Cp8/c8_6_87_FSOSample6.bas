@@ -12,5 +12,5 @@ Sub FSOSample6()
             i = i + 1
             Cells(i, 1).Value = myFld.Name
         Next
-    ENd With
+    End With
 End sub

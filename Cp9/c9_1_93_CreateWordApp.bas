@@ -40,7 +40,7 @@ objWord.WindowState = wdWindowStateMinmize
     MsgBox "Wordを起動して新規文書を作成しました" & Chr(13) & _
            "OKボタンをクリックすると文書を保存してWordを終了します"
         
-    objWOrdDoc.SaveAs myPath & "Test.doc"
+    objWrdDoc.SaveAs myPath & "Test.doc"
 
     objWordDoc.Close
 

@@ -1,11 +1,11 @@
 Option Explicit
 
-    Dim objword As New Word.Application
+    Dim objWord As New Word.Application
     Dim objWordDoc As Word.Document
 
 Sub CreateWordApp2()
 
-    With objword
+    With objWord
         .Visible = True
         .WindowState = wdWindowStateMaxmize
         .Documents.Open ActiveWorkbook.Path & "|Report.doc"
@@ -41,6 +41,6 @@ Sub CreateWordApp2()
 
     objWord.Quit
 
-    Set objword = Nothing
+    Set objWord = Nothing
     Set objWordDoc = Nothing        
 End sub

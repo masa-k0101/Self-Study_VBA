@@ -8,7 +8,7 @@ Sub GetWordApp()
     myAppOpen = True
 
 MacroContinue:
-    If myAppOpen = Flase Then
+    If myAppOpen = False Then
         Set objWord = CreateObject("Word.Application")
     End If
 
@@ -24,7 +24,7 @@ MacroContinue:
     
 HandleErr:
     If Err.Number = 429 Then
-       myAppOpen = Flase
+       myAppOpen = False
        Resume MacroContinue
     End If      
 End sub

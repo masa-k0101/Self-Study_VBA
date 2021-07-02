@@ -15,7 +15,7 @@ MacroContinue:
    With objWord
         .Visible = True
         .WindowState = wdWindowStateMinimize
-       .Documents.Add
+        .Documents.Add
     End With
 
     Set objWord = Nothing

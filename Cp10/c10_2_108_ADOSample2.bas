@@ -6,7 +6,7 @@ Sub ADOSample1()
 
     myRcdSet.Open "T_会員リスト", myConnect
 
-    Range("A6").CopyFromRecordset myRcddSet
+    Range("A6").CopyFromRecordset myRcdSet
 
     myRcdSet.Close
     myConnect.Close
